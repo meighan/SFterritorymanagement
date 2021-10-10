@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Territory2Model</baseObject>
+    <category>territory2</category>
+    <deployed>false</deployed>
+    <description>Territories with or without assigned users.
+
+Includes Territory details and territory role details for users</description>
+    <join>
+        <join>
+            <outerJoin>true</outerJoin>
+            <relationship>UserTerritory2Associations</relationship>
+        </join>
+        <outerJoin>true</outerJoin>
+        <relationship>Territory2s</relationship>
+    </join>
+    <label>Territory with or without Users</label>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>DeveloperName</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Description</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>AccountAccessLevel</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CaseAccessLevel</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ContactAccessLevel</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>OpportunityAccessLevel</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Modified By</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Parent Territory</displayNameOverride>
+            <field>ParentTerritory2</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Territory Type</displayNameOverride>
+            <field>Territory2Type</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <masterLabel>Territories: General</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Type Description</displayNameOverride>
+            <field>Territory2Type.Description</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Type Master Language</displayNameOverride>
+            <field>Territory2Type.Language</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Type Priority</displayNameOverride>
+            <field>Territory2Type.Priority</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Territory Type ID</displayNameOverride>
+            <field>Territory2Type.Id</field>
+            <table>Territory2Model.Territory2s</table>
+        </columns>
+        <masterLabel>Territory Type: General</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RoleInTerritory2</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>FirstName</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Name</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastName</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Phone</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Email</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Division</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Territory2Model.Territory2s.UserTerritory2Associations</table>
+        </columns>
+        <masterLabel>Territory Assigned Users</masterLabel>
+    </sections>
+</ReportType>
