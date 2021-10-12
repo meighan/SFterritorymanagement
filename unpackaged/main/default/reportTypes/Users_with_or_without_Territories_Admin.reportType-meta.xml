@@ -137,11 +137,6 @@ Used to determine users assigned and not assigned to territories</description>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>JigsawImportLimitOverride</field>
-            <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>UserSubtype</field>
             <table>User</table>
         </columns>
