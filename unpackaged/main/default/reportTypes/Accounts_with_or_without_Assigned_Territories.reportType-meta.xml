@@ -421,12 +421,4 @@
         </columns>
         <masterLabel>Territory Model: General</masterLabel>
     </sections>
-    <sections>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>SLA__c</field>
-            <table>Account</table>
-        </columns>
-        <masterLabel>Account Custom</masterLabel>
-    </sections>
 </ReportType>
