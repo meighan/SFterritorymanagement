@@ -134,11 +134,6 @@
             <field>Type</field>
             <table>Account</table>
         </columns> 
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>YearStarted</field>
-            <table>Account</table>
-        </columns>
         <masterLabel>Accounts</masterLabel>
     </sections>
     <sections>
