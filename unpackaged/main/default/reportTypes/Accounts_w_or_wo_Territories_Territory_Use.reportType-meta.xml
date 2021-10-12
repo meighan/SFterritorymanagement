@@ -73,11 +73,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Jigsaw</field>
-            <table>Account</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Description</field>
             <table>Account</table>
         </columns>
@@ -515,13 +510,5 @@
             <table>Account.AccountTerritory2Associations</table>
         </columns>
         <masterLabel>Territory Type: General</masterLabel>
-    </sections>
-    <sections>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>SLA__c</field>
-            <table>Account</table>
-        </columns>
-        <masterLabel>Account Custom</masterLabel>
     </sections>
 </ReportType>
