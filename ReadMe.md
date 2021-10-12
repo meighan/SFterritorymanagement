@@ -1,7 +1,8 @@
 
 # Enterprise Territory Management Report Types 
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=meighan&repo=SFterritorymanagement">
+<a href="https://githubsfdeploy.herokuapp.com?owner=meighan&repo=SFterritorymanagement&ref=main">
   <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+
