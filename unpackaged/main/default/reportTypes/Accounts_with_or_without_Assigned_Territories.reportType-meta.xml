@@ -47,11 +47,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CleanStatus</field>
-            <table>Account</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>CreatedBy</field>
             <table>Account</table>
         </columns>
@@ -63,11 +58,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>DandbCompany</field>
-            <table>Account</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Jigsaw</field>
             <table>Account</table>
         </columns>
         <columns>
